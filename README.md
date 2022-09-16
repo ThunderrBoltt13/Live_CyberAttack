@@ -24,8 +24,8 @@ In Remote Desktop :
 * Open Event Viewer - Here we can find the people who fail to login to our vm
 * We collect those ip addresses systematically(using PowerShell)
 * Now turn off the firewall protection on VM(remote desktop)
-* Open PowerShell and run the following PowerShell script{Hyperlink}
-* In this script you need get your own API_KEY from the website{Hyperlink}(ipgeolocation.io)
+* Open PowerShell and run the following [PowerShell script](https://github.com/ThunderrBoltt13/Live_CyberAttack/blob/04394bb6a54c5a460936fffde1a0a612334ed45d/Custom_Security_Log_Exporter.ps1).
+* In this script you need get your own API_KEY from the [website](ipgeolocation.io)
 * By using the PowerShell script we can grab all the logs(failed) and send them to the API and get the geolocation from the API and create log files. (Stores in       $LOGFILE_PATH )
 
 Again we go back to Azure Portal:
